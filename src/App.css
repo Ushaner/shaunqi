@@ -1,0 +1,27 @@
+h1 {
+    margin-left: 10vh;
+}
+
+body {
+    background-color:lightgray;
+}
+
+.NavyBary {
+    background-color: cornflowerblue;
+    height: 8vh;
+    width: 100%;
+}
+
+.rattitle{
+    align-items: right;
+    border: 10px;
+    border-color: cornflowerblue;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+a {
+    text-decoration: none;
+    padding: 30px;
+    background-color: aquamarine;
+}
