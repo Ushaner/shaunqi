@@ -1,0 +1,11 @@
+h1 {
+    margin-left: 10vh;
+}
+
+.rattitle{
+    align-items: right;
+    border: 10px;
+    border-color: cornflowerblue;
+    border-style: solid;
+    border-radius: 30px;
+}

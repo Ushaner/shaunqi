@@ -1,5 +1,11 @@
-navvy{
-    background: #000;
-    height: 80px;
+.NavyBary {
+    background-color: cornflowerblue;
+    height: 8vh;
     width: 100%;
+}
+
+a {
+    text-decoration: none;
+    padding: 30px;
+    background-color: aquamarine;
 }
