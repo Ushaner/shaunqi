@@ -1,7 +1,6 @@
 
 body {
     background-color:lightgray;
-    height: 100%;
 }
 
 
@@ -14,18 +13,8 @@ body {
     border-radius: 30px;
 }
 
-.Doos {
-    display: flex;
-    flex-flow: column;
-    height: 100%
-} 
 
 .Spawnpoint {
     flex: 1 1 auto;
-    border: 1px dotted gray;
-}
-
-
-.Doos .Spawnpoint {
     border: 1px dotted gray;
 }

@@ -1,5 +1,5 @@
 import '../LegosCSS/ToppyBoppy.css';
-import React, { Component } from 'react'
+import React, { Component, useRef, useEffect } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 
 function ToppyBoppy() {
@@ -8,15 +8,14 @@ function ToppyBoppy() {
       <div>
         <Row>
           <div class="NavyBary">
-            <a href="#top">Ratatoing</a>
-            <a href="#bottom">Rats & Humans</a>
-            <a href="#middle">Comida</a>
-            <a href="#Everything">Everything</a>
+            <a href="#/">Ratatoing</a>
+            <a href="#/Charapoo">Rats & Humans</a>
+            <a href="#/Comida">Comida</a>
+            <a href="#/Everything">Everything</a>
           </div>
         </Row>
       </div>
     </Container>
   );
 };
-
 export default ToppyBoppy;

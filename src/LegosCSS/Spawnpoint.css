@@ -1,14 +1,16 @@
+
+
 .spoogpoint {
    flex: 1 1 auto;
 }
 
 .spawnpoint {
-    height: 100%;
+    height: 100vh;
     width: 100%;
-    display: flex;
     background-color: aqua;
+    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
     vertical-align: middle;
     
 }

@@ -1,20 +1,21 @@
 import './App.css';
-import BodyOne from './Legos/BodyOne';
-import Spawnpoint from './Legos/Spawnpoint';
-import ToppyBoppy from './Legos/ToppyBoppy';
+import Charatoo from './Armory/CharactyPagy';
+import Comida from './Armory/Comida';
+import Everythrungy from './Armory/Everythrungy';
+import RippyOffy from './Armory/Rippyoffy';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <fluid>
-    <div className="Doos">
-    <ToppyBoppy className="ToppyBoppy"/>
-    <Spawnpoint className="Spawnpoint"/>
-    </div>
-
-      
-
-    </fluid>
+    <HashRouter>
+      <Routes>
+          <Route path="/" element={<RippyOffy />} />
+          <Route path="/Charapoo" element={<Charatoo />} /> 
+          <Route path="/Comida" element={<Comida />} />
+          <Route path="/Everything" element={<Everythrungy />} />
+      </Routes>
+    </HashRouter>
   );
-};
+}
 
 export default App;

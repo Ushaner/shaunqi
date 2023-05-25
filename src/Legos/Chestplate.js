@@ -1,4 +1,4 @@
-
+import Image from 'react-bootstrap';
 import '../LegosCSS/Chestplate.css';
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
@@ -7,9 +7,8 @@ function Chestplate() {
     return (
         <Container class="Chestplate" Fluid>
             <Row>
-                <div class="leggings">
-                    <p class="sus">Remy dreams of becoming a great chef, despite being a rat in a definitely rodent-phobic profession. He moves to Paris to follow his dream, and with the help of hapless garbage boy Linguini he puts his culinary skills to the test in the kitchen but he has to stay in hiding at the same time, with hilarious consequences. Remy eventually gets the chance to prove his culinary abilities to a great food critic but is the food good? A Pixar animation.</p>
-                    <p class="arther">Directed by Brad Bird</p>
+                <div>
+                    <img src="https://static.wikia.nocookie.net//image/e/e7/Carol_Walking.png/revision/latest/smart/width/250/height/250?cb=20160212102047https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6jiFa07Z8GXbY24Qrn66YgIav0UT1iAotNWYJll2imw52fctjV614sOPLEf_e7-eSAaM&usqp=CAU" alt="sus"></img>
                 </div>
             </Row>
         </Container>
